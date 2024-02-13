@@ -10,6 +10,7 @@ import 'package:states_rebuilder/states_rebuilder.dart';
 import 'features/core/core.dart';
 import 'features/core/hive_storage.dart';
 import 'features/settings/settings_bloc.dart';
+typedef UI = ReactiveStatelessWidget;
 
 final directoryRM = RM.injectFuture(
   () async {

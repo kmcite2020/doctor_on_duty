@@ -5,12 +5,13 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:doctor_on_duty/features/settings/settings_page.dart';
-import 'package:doctor_on_duty/features/settings/settings_bloc.dart';
-import 'package:doctor_on_duty/features/chapters_page/chapters_page.dart';
-import 'package:doctor_on_duty/features/search/search_page.dart';
 import 'package:states_rebuilder/states_rebuilder.dart';
 import 'package:uuid/uuid.dart';
+
+import 'package:doctor_on_duty/features/chapters_page/chapters_page.dart';
+import 'package:doctor_on_duty/features/search/search_page.dart';
+import 'package:doctor_on_duty/features/settings/settings_bloc.dart';
+import 'package:doctor_on_duty/features/settings/settings_page.dart';
 
 import '../chapters_page/chapter_page.dart';
 import '../home.dart';
